@@ -1,0 +1,16 @@
+body{
+    background-image: url('../pictures/top_background_image.jpeg');
+}
+
+div{
+    display: block;
+}
+
+.archive_link{
+    font-size: 20px;
+}
+
+.slide_show{
+    width: 400px;
+    height: auto;
+}
