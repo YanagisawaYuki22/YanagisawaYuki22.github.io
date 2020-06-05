@@ -2,6 +2,28 @@ body{
     background-image: url('../pictures/top_background_image.jpeg');
 }
 
+#global_navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-left: 2px solid #000000;
+    width: 100vw;
+}
+
+#global_navi ul li {
+    border-right: 2px solid #000000;
+    background-color: #ffffff;
+    width: 33vw;
+}
+
+#global_navi ul li a {
+    display: block;
+    padding: 6px 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
 div{
     display: block;
 }
