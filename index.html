@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/index.css">
-    <script type="text/javascript" src="./js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165267394-1"></script>
 <script>
@@ -17,6 +17,15 @@
     <title>Top Page</title>
   </head>
   <body>
+
+    <div id="header">
+      <script>
+        $(function(){
+    $("#header").load("./header.html");
+    });
+      </script>
+    </div>
+    
 
     <nav id="global_navi">
       <ul>
@@ -47,6 +56,8 @@
       <p>Recent pictures</p>
       <img class="recent_picture1" src="./pictures/5133.jpg">
     </div>
+    
+    <!---<script type="text/javascript" src="./js/index.js"></script> --->
   </body>
 
 </html>
